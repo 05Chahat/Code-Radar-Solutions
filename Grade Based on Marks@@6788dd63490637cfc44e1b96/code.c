@@ -12,9 +12,9 @@ int main() {
         printf("C");
     }
     else if (m>=60 && m<70) {
-        printf("D")
+        printf("D");
     }
     else{
-        printf("Fail")
+        printf("F");
     }
 }
