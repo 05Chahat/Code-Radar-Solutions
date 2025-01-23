@@ -8,9 +8,9 @@ int main() {
     int a,b;
     scanf("%d %d",&a,&b);
     if(a>b){
-        printf("a");
+        printf("%d",a);
     }
     else{
-        printf("b");
+        printf("%d",b);
     }
 }
