@@ -6,10 +6,11 @@ char* welcome() {
 
 int main() {
     char c;
+    scanf("%c",&c);
     for (char i='A',i='Z',i++){
         if (i=='c'){
             printf("%c",i);
         }
     }
-    
+
 }
