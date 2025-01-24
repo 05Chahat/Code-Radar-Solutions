@@ -9,7 +9,7 @@ int main() {
     else if (c=='-') {
         printf("%.0f",a-b);
     }
-    else if (c='*') {
+    else if (c=='*') {
         printf("%.0f",a*b);
     }
     else if (c=='/') {
