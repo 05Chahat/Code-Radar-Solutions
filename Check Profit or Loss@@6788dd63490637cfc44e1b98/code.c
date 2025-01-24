@@ -13,4 +13,7 @@ int main() {
     else if (cp<sp) {
         printf("Profit");
     }
+    else {
+        printf("No Profit No Loss");
+    }
 }
