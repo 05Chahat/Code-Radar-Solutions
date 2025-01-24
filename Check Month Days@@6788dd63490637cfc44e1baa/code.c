@@ -7,13 +7,13 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d",&a);
-    if ((a%2==0 && a!=2 && a<7) || (a%2==0 && a>=8)) {
+    if ((a%2==0 && a!=2 && a<=7) || (a%2!=0 && a>=8)){
         printf("30");
     }
     else if (a==2){
             printf("28");
         }
-    else if (a%2!=0) {
+    else if ((a%2!=0 && a<=7) || (a%2==0 && a>=8)) {
         printf("31");
     }
     else {
