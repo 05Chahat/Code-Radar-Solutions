@@ -5,9 +5,10 @@ char* welcome() {
 }
 
 int main() {
-    int a,b;
+    int a,b,c;
     scanf("%d %d",&a,&b);
-    if (b==pow(a,2)){
+    c=pow(a,2);
+    if (a==c){
         printf("Yes");
     }
     else {
