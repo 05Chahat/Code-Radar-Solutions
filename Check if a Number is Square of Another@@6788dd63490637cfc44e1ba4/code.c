@@ -5,10 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    int a,b,c;
+    int a,b;
     scanf("%d %d",&a,&b);
-    c=pow(a,2);
-    if (a==c){
+    if (a==b*b){
         printf("Yes");
     }
     else {
