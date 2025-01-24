@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    int cp , sp;
+    int cp,sp;
     scanf("%d %d",&cp,&sp);
     if (cp>sp){
         printf("Loss");
