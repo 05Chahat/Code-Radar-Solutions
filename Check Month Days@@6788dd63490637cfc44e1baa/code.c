@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d",&a);
-    if ((a%2==0 && a!=2 && a<=7) || (a%2!=0 && a>=8)){
+    if ((a%2==0 && a!=2 && a<=7 && a<=12) || (a%2!=0 && a>=8 && a<=12)){
         printf("30");
     }
     else if (a==2){
