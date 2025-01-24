@@ -31,6 +31,7 @@ int main() {
     else {
         printf("Invalid");
     }
+}
     else if (a=='6'){
         printf("Saturday");
     }
