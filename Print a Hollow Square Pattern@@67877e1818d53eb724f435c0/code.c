@@ -4,7 +4,7 @@ void printHollowSquare(int size) {
     for (int i = 1; i <= size; i++) {
         for (int j = 1; j <= size; j++) {
             if (i == 1 || i == size || j == 1 || j == size) {
-                printf("* ");
+                printf("*");
             } else {
                 printf("  ");
             }
