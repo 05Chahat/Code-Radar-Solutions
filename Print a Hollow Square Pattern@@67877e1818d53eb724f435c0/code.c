@@ -6,7 +6,7 @@ void printHollowSquare(int size) {
             if (i == 1 || i == size || j == 1 || j == size) {
                 printf("*");
             } else {
-                printf("  ");
+                printf(" ");
             }
         }
         printf("\n");
