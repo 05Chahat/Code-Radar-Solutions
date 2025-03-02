@@ -2,7 +2,6 @@
 
 int main() {
     int n;
-    printf("%s\n", welcome());
     scanf("%d", &n);
 
     for (int i = 1; i <= n; i++) {
