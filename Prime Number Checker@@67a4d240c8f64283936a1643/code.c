@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int isprime();
-int main () {
+int main() {
     int t;
     scanf("%d", &t);
     while(t--){
