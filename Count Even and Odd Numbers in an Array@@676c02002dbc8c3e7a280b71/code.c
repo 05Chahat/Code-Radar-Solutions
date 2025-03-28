@@ -9,7 +9,7 @@ int main() {
     }
     int count_e, count_o;
     for (int i=0; i<n; i++){
-        if (a[i]%2==){
+        if (a[i]%2==0){
             count_e++;
         }
         else if (a[i]%2!=0){
