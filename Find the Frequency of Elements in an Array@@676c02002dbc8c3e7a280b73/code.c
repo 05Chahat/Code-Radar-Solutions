@@ -13,5 +13,5 @@ int main() {
             count++;
         }
     }
-    printf("%d %d\n",n, count);
+    printf("%d %d\n",i, count);
 }
