@@ -12,6 +12,6 @@ int main() {
         if (i==a[i]){
             count++;
         }
-        printf("%d %d\n",i, count);
+        printf("%d %d\n",a[i], count);
     }
 }
