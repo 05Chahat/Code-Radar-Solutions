@@ -8,11 +8,10 @@ int main() {
         scanf("%d",&a[i]);
     }
     int count=0;
-    int i;
     for (int i=0; i<n; i++){
         if (i==i){
             count++;
         }
+        printf("%d %d\n",i, count);
     }
-    printf("%d %d\n",i, count);
 }
