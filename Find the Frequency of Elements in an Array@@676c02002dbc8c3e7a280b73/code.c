@@ -9,7 +9,7 @@ int main() {
     }
     int count=0;
     for (int i=0; i<n; i++){
-        if (i==i){
+        if (i==a[i]){
             count++;
         }
         printf("%d %d\n",i, count);
