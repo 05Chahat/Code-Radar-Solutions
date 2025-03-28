@@ -11,7 +11,7 @@ int main() {
     for (int i=0; i<n; i++){
         if (a[i]==a[i]){
             count++;
-            printf("%d %d\n",a[i], count);
         }
+        printf("%d %d\n",a[i], count);
     }
 }
