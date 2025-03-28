@@ -10,7 +10,7 @@ int main() {
     }
     int max = a[0];
     int min = a[0];
-    for (int i=0; i<a[n]; i++){
+    for (int i=0; i<[n]; i++){
         if (a[i]>max){
             max= a[i];
         }
@@ -18,5 +18,5 @@ int main() {
             min = a[i];
         }
     }
-    printf("%d %d",max, min);
+    printf("%d %d", max, min);
 }
