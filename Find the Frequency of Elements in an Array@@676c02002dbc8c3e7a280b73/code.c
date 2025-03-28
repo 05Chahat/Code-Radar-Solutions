@@ -12,6 +12,6 @@ int main() {
         if (i==i){
             count++;
         }
-        printf("%d", count);
+        printf("%d ", count);
     }
 }
